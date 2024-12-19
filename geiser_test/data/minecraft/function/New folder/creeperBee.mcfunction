@@ -1,0 +1,1 @@
+execute at @a run summon minecraft:bee ~5 ~ ~ {Passengers:[{id:creeper}]}

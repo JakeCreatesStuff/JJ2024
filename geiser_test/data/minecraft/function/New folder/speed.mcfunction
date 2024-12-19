@@ -1,0 +1,1 @@
+execute at @s run effect give @a minecraft:speed 20 25

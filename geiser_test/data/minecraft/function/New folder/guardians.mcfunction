@@ -1,0 +1,1 @@
+execute at @a run summon area_effect_cloud ~ ~-0.5 ~ {Passengers:[{id:guardian},{id:guardian},{id:guardian}]}

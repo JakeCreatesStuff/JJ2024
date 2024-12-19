@@ -1,0 +1,1 @@
+effect give @a minecraft:speed 60 20
