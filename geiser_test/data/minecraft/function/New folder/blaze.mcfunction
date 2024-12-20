@@ -1,1 +1,0 @@
-execute at @a run summon area_effect_cloud ~ ~1 ~ {Passengers:[{id:blaze},{id:blaze}]}

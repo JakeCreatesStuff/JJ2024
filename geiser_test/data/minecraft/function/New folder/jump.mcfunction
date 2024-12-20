@@ -1,1 +1,0 @@
-execute at @s run effect give @a minecraft:jump_boost 20 15

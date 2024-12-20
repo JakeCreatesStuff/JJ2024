@@ -1,1 +1,0 @@
-execute at @s run effect give @a minecraft:slow_falling 20
