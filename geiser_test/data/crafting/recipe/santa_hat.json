@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#",
+        "R"
+    ],
+    "key": {
+        "#": [
+		"minecraft:white_wool"
+        ],
+        "R": [
+		"minecraft:red_wool"
+        ]
+    },
+    "result": {
+        "id": "minecraft:stick",
+	"components": {
+		"minecraft:item_model": "custom:red_hat",
+		"minecraft:equippable": {
+			"slot": "head"
+	        },
+		"minecraft:custom_name": "{\"text\":\"Santa Hat\", \"italic\": false}"
+	}
+    },
+    "count": 1
+}
