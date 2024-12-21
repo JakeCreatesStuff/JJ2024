@@ -1,5 +1,5 @@
 title @a title {"text":"Anvil Rain", "bold":true, "italic":true, "color":"red"}
-playsound minecraft:block.anvil.place master @a
+execute positioned as @a run playsound minecraft:block.anvil.place master @p
 execute at @a as @a run setblock ~ ~20 ~ minecraft:anvil
 execute at @a as @a run setblock ~3 ~20 ~ minecraft:anvil
 execute at @a as @a run setblock ~-3 ~21 ~1 minecraft:anvil

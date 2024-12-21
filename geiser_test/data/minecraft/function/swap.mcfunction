@@ -9,4 +9,4 @@ kill @e[tag=InitialPosA]
 kill @e[tag=InitialPosB]
 tag @a remove SecondPlayer
 tag @a remove FirstPlayer
-playsound minecraft:entity.shulker.teleport master @a
+execute positioned as @a run playsound minecraft:entity.shulker.teleport master @p

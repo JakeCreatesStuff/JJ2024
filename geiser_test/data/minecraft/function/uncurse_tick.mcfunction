@@ -1,3 +1,3 @@
 item replace entity @a[tag=cursedHat] armor.head with air
-playsound minecraft:block.beacon.deactivate master @a[tag=cursedHat]
+execute positioned as @p[tag=cursedHat] run playsound minecraft:block.beacon.deactivate master @p
 tag @a remove cursedHat
